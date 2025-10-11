@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sol's Port</title>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
   <style>
+    body {
+      background-color: #d7c49d;
+      font-family: 'Times New Roman', Times, serif;
+      background-image: url('https://www.doeandhope.com/cdn/shop/files/butterflytaxidermyscreen11_2048x.jpg?v=1758110732');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
     .myDiv {
-      background-color: #c1d3ad;
+      background-color: #e8e2d0;
       text-align: center;
       padding: 40px;
       border-radius: 25px;
@@ -15,22 +25,61 @@
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
       animation: fadeUp 1.2s ease-in-out;
     }
+
+    h1 {
+      color: #584f44;
+      font-size: 2.2em;
+    }
+
+    h1 i {
+      color: #9b7e57;
+    }
+
+    .button1 {
+      display: inline-block;
+      text-decoration: none;
+      color: #5b4938;
+      font-weight: bold;
+      padding: 15px 30px;
+      border: 3px solid #9b7e57;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
+
+    .button1:hover {
+      background-color: #c9b792;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+      transform: translateY(-3px);
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #7a6d5c;
+    }
   </style>
 </head>
-<body style="background-color: #a8bd91;">
-<div class ="myDiv">
+
 <body>
-  <center><h1><i>hi sol ako si classmates</i></h1></center>
+<div class ="myDiv">
+  <h1><i>Sol's Butterfly Taxidermy Showcase</i></h1>
   <section class="w3-container">
-    <h1>Links here</h1>
-   <nav>
-    <ul>
-      <li><a href="./public/2Q2GBerylliumLalican.html"> Main Page </a></li>
-      <li><a href="https://maviegale.github.io/CS3_2ndQtrPortfolio/public/2Q1GSBerylliumCruz.html"> 2 </a></li>
-      <li><a href="#"> 3 </a></li>
-      <li><a href="#"> 4 </a></li>
-    </ul>
-   </nav>
+    <h2>Welcome to my exquisite preserved butterfly museum! (Technically my CS3 2nd Qtr Portfolio)</h2>
+    <p>I hope you enjoy your visit.</p>
+      <a href="./public/2Q2GBerylliumLalican.html" class="button1">Specimen #1 (1st Graded Exercise)</a>
   </section>
+  </div>
 </body>
 </html>
