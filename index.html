@@ -35,24 +35,6 @@
       color: #9b7e57;
     }
 
-    .button1 {
-      display: inline-block;
-      text-decoration: none;
-      color: #5b4938;
-      font-weight: bold;
-      padding: 15px 30px;
-      border: 3px solid #9b7e57;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-      cursor: pointer;
-    }
-
-    .button1:hover {
-      background-color: #c9b792;
-      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-      transform: translateY(-3px);
-    }
-
     @keyframes fadeUp {
       from {
         opacity: 0;
@@ -69,6 +51,36 @@
       font-size: 0.9em;
       color: #7a6d5c;
     }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 10px 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #6c584c;
+      background-color: #dcd2b6;
+      padding: 12px 40px;
+      border-radius: 3px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      border: 2px solid #9b7e57;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      background-color: #b9a890;
+      color: #fff;
+      box-shadow: 0 6px 15px  rgba(0, 0, 0, 0.15);
+    }
   </style>
 </head>
 
@@ -78,7 +90,13 @@
   <section class="w3-container">
     <h2>Welcome to my exquisite preserved butterfly museum! (Technically my CS3 2nd Qtr Portfolio)</h2>
     <p>I hope you enjoy your visit.</p>
-      <a href="./public/2Q2GBerylliumLalican.html" class="button1">Specimen #1 (1st Graded Exercise)</a>
+
+    <nav>
+      <ul>
+        <li><a href="./public/2Q2GBerylliumLalican.html" class="button1">Specimen #1 (1st Graded Exercise)</a></li>
+      </ul>
+    </nav>
+
   </section>
   </div>
 </body>
