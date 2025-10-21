@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+    <title>Main Page</title>
+    <link rel="icon" type="image/x-icon" href="../assets/favicon1.png">
+    <style>
+    body {
+        background-image: url("https://cdn.vectorstock.com/i/750p/54/04/sketch-ice-cream-cherry-pattern-vector-18495404.avif");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .myDiv {
+      background-color: rgba(255, 255, 255, 0.88);
+      text-align: center;
+      padding: 40px;
+      border-radius: 25px;
+      margin: 60px auto;
+      width: 80%;
+      max-width: 1000px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      animation: fadeUp 1.2s ease-in-out;
+    }
+    
+    h1 {
+      text-align: center;
+      font-size: 42px;
+      animation: popIn 1.5s ease-in-out;
+    }
+
+    p {
+      font-size: 30px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    img {
+      border-radius: 20px;
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeUp 1.5s ease forwards;
+    }
+
+    img:first-of-type {
+      animation-delay: 0.8s;
+    }
+
+    img:last-of-type {
+      animation-delay: 1.5s;
+    }
+
+    iframe {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeUp 1.5s ease forwards;
+      animation-delay: 1.8s;
+    }
+
+    /* --- Animation Keyframes --- */
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes popIn {
+      0% {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-size: 18px;
+  background-color: #fffaf0; /* light cream background */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+  border: 1px solid #d2691e; /* chocolate border */
+  padding: 12px 16px;
+  text-align: center;
+}
+
+th {
+  background-color: #ffdead; /* Navajo white */
+  color: #4b2e2e;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #fceabb; /* soft yellow for even rows */
+}
+
+tr:hover {
+  background-color: #fad28e; /* light orange on hover */
+  transition: background-color 0.3s ease;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 10px 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #6c584c;
+  background-color: #dcd2b6;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+nav ul li a:hover {
+  background-color: #b9a890;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+    </style>
+    </head>
+    <body>
+    <div class ="myDiv">
+    <h1>Welcome!</h1>
+    <br><p>Ice cream, a refreshing summer treat cherished by many people. But have you ever wondered how far ice cream has come? Well, wonder no more! We'll be diving deep into the sweet world of ice cream, starting of with the most important thing, that is...</p>
+    <h1>History of Ice Cream</h1>
+    <p><text style ="font-size: 20px;">Ice cream has come a long way from its earliest beginnings. It first appeared in China during the Tang dynasty, where milk was mixed with rice and chilled using snow. Over time, this idea spread to Europe, and by the 16th century, sweetened frozen dairy or "ices" became popular, later evolving into sorbets. As centuries passed, the first hand-cranked freezer was invented in the early 19th century, giving ice cream a smoother texture and making it easier to produce.</p>
+    
+    <p><text style ="font-size: 20px;">Soon after, factories in New York and Boston began mass-producing ice cream during the mid-1800s, marking the start of its industrial rise. With the invention of mechanical refrigeration, ice cream could now be stored and enjoyed year-round, turning it from a luxury to an everyday delight. Finally, innovations like the ice cream cone, introduced at the 1904 St. Louis World's Fair, made it more accessible and fun to eat. Overall, what began as a frozen delicacy for the few has transformed into one of the world's most loved desserts.</p>
+    <img src= "https://th.bing.com/th/id/R.8b087f030e586b3e0697107811d33cd3?rik=WOb%2bc7qgUJEsdQ&riu=http%3a%2f%2fimages.firstwefeast.com%2fcomplex%2fimage%2fupload%2fryxkzxvjsknqfwukivbw.jpg&ehk=KFPGlxeWkTRHhBxKojEUGgt2DBhd7DaUIv%2blw4bTpck%3d&risl=&pid=ImgRaw&r=0">
+
+    <br><br><h2>For a more simplified summary of the history of ice cream, please look at the table below!</h2>
+    
+    <table>
+  <tr>
+    <th>Time Period</th>
+    <th>Region/Country</th>
+    <th>Key Development</th>
+    <th>Main ingredients/Method</th>
+    <th>Significance</th>
+  </tr>
+  <tr>
+    <td>Ancient Times (200 BC - 400 AD)</td>
+    <td> China,Persia,Rome</td>
+    <td>Early frozen desserts made from snow mixed with fruit, honey, or milk</td>
+    <td>Snow, milk, rice, fruit</td>
+    <td>Earliest known precursors to modern ice cream</td>
+  </tr>
+  <tr>
+    <td>17th-18th Century</td>
+    <td>Europe (Italy, France, England)</td>
+    <td>Recipes for “frozen cream” appeared among nobility</td>
+    <td>Milk, cream, sugar, flavorings</td>
+    <td>Ice cream became a luxury food enjoyed by the wealthy</td>
+  </tr>
+  
+  <tr>
+    <td>19th–20th Century</td>
+    <td>United States</td>
+    <td>Invention of hand-cranked freezer and later mass production</td>
+    <td>Cream, sugar, eggs, flavorings</td>
+    <td>Ice cream became widely available and a global favorite</td>
+  </tr>
+</table>
+
+  <h2>Continue Exploring</h2>
+  <nav>
+    <ul>
+      <li><a href="../index.html">Back to the lobby!</a></li>
+      <li><a href="https://maviegale.github.io/CS3_2ndQtrPortfolio/public/2Q1GSBerylliumCruz.html">Popular ice cream flavors</a></li>
+      <li><a href="https://fsdqlaurio.github.io/CS3_2NDQTRPORTFOLIO/public/Unique_IceCream_Flavors.html">Unique ice cream flavors</a></li>
+      <li><a href="https://leigh528.github.io/CS3_2NDQTRPORTFOLIO/">Ice cream-making process</a></li>
+    </ul>
+  </nav>
+      <h5><i> Source</i>
+        <a href ="https://ice-cream.org/about-the-ice-cream-alliance/history-of-ice-cream/"> <i>here!</i></a></h5>
+</html>
